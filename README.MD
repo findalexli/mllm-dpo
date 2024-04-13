@@ -1,3 +1,20 @@
+This repo contains the code and the data for the following paper:
+
+```bibtex
+@misc{li2024multimodal,
+    title={Multi-modal preference alignment remedies regression of visual instruction tuning on language model},
+    author={Shengzhi Li and Rongyu Lin and Shichao Pei},
+    year={2024},
+    eprint={2402.10884},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+Release Arxiv: https://arxiv.org/abs/2402.10884
+
+Developers: Shengzhi Li (TIFIN.AI), Rongyu Lin (KAUST), Shichao Pei (University of Massachusetts Boston)
+Affiliations: TIFIN, KAUST, University of Massachusetts Boston
+Contact Information: alex.li@tifin.com, rongyu.lin@kaust.edu.sa, shichao.pei@umb.edu
+
 ## Contents
 
 - [Introduction](#introduction)
@@ -8,7 +25,7 @@
 
 ## Introduction
 
-This guide provides step-by-step instructions for fine-tuning using the alignment mehotds and evaluating the LLaVA model, specifically focusing on visual instruction tuning using SciGraphQA and LRV-instruct datasets.
+This guide provides step-by-step instructions for fine-tuning using the alignment methods and evaluating the LLaVA model, specifically focusing on visual instruction tuning using SciGraphQA and LRV-instruct datasets.
 
 ## Installation
 
@@ -64,3 +81,5 @@ playground/data/steerlm.json
 1. **Use the provided evaluation scripts under scripts/v1_5/eval/ to assess the performance of your fine-tuned model on various benchmarks.** Ensure that you follow the guidelines for using greedy decoding to ensure consistency with real-time outputs.
 
 We thank the authors of LLaVA, Vicuna for which the origional state of this repo is based on
+
+
