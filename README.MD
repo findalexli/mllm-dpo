@@ -10,7 +10,11 @@ This repo contains the code and the data for the following paper:
     primaryClass={cs.CL}
 }
 ```
-Release Arxiv: https://arxiv.org/abs/2402.10884
+[[Arxiv paper](https://arxiv.org/abs/2402.10884)]
+[[GitHub](https://github.com/findalexli/mllm-dpo)]
+[[Data](https://huggingface.co/datasets/alexshengzhili/llava-preference-dpo)]
+[[Model](https://huggingface.co/alexshengzhili/llava-v1.5-13b-dpo/edit/main/README.md)]
+[[Data](https://huggingface.co/datasets/alexshengzhili/mllm-dpo)]
 
 Developers: Shengzhi Li (TIFIN.AI), Rongyu Lin (KAUST), Shichao Pei (University of Massachusetts Boston)
 Affiliations: TIFIN, KAUST, University of Massachusetts Boston
