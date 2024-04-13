@@ -48,15 +48,19 @@ This guide provides step-by-step instructions for fine-tuning using the alignmen
             └── images/
     ```
 
-3. For DPO data, the dataset with pre-computed log likelihood are also provided in the submission
-4. For non-DPO data, we also provide each of the alignment method (SteerLM, Rejection Sampling and Standard SFT) in the zipped data 
+3. For DPO, please see playground/data/dpo_inference0104.with_logpllava-v1.5-13b_2024-02-03.json
+4. For non-DPO data, we also provide each of the alignment method (SteerLM, Rejection Sampling and Standard SFT) in the data folder such as
+playground/data/rejection_sampling.json
+playground/data/standard_sft.json
+playground/data/steerlm.json
 ## Training
 
 1. Use scripts/v1/finetune_dpo.sh for DPO experiments
-2. Use scripts/v1/finetune_steer.sh for non-DPO experiments
+2. Use scripts/v1/finetune_steer.sh for non-DPO experiments, 
+
 
 ## Evaluation
 
 1. **Use the provided evaluation scripts under scripts/v1_5/eval/ to assess the performance of your fine-tuned model on various benchmarks.** Ensure that you follow the guidelines for using greedy decoding to ensure consistency with real-time outputs.
 
-# We thank the authors of LLaVA, Vicuna for which the origional state of this repo is based on
+We thank the authors of LLaVA, Vicuna for which the origional state of this repo is based on
