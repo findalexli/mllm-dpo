@@ -59,6 +59,11 @@ This guide provides step-by-step instructions for fine-tuning using the alignmen
    - SciGraphQA: [Download Link](https://huggingface.co/datasets/alexshengzhili/SciGraphQA-295K-train)
    - LRV-Insturct: [Download Link](https://github.com/FuxiaoLiu/LRV-Instruction)
 
+    The images for LRC-Instruct shall be downloaded by: 
+gdown https://drive.google.com/uc?id=1k9MNV-ImEV9BYEOeLEIb4uGEUZjd3QbM
+
+The images for SciGraphQA can be downloaded by: 
+https://huggingface.co/datasets/alexshengzhili/SciGraphQA-295K-train/resolve/main/img.zip?download=true
 2. **Organize the images in `./playground/data`:**
 
     ```
