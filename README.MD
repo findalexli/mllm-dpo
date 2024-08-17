@@ -1,13 +1,22 @@
 This repo contains the code and the data for the following paper:
 
 ```bibtex
-@misc{li2024multimodal,
-    title={Multi-modal preference alignment remedies regression of visual instruction tuning on language model},
-    author={Shengzhi Li and Rongyu Lin and Shichao Pei},
-    year={2024},
-    eprint={2402.10884},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@inproceedings{li-etal-2024-multi,
+    title = "Multi-modal Preference Alignment Remedies Degradation of Visual Instruction Tuning on Language Models",
+    author = "Li, Shengzhi  and
+      Lin, Rongyu  and
+      Pei, Shichao",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.765",
+    pages = "14188--14200",
+    abstract = "Multi-modal large language models (MLLMs) are expected to support multi-turn queries of interchanging image and text modalities in production. However, the current MLLMs trained with visual-question-answering (VQA) datasets could suffer from degradation, as VQA datasets lack the diversity and complexity of the original text instruction datasets with which the underlying language model was trained. To address this degradation, we first collect a lightweight, 5k-sample VQA preference dataset where answers were annotated by Gemini for five quality metrics in a granular fashion and investigate standard Supervised Fine-tuning, rejection sampling, Direct Preference Optimization (DPO) and SteerLM algorithms. Our findings indicate that with DPO, we can surpass the instruction-following capabilities of the language model, achieving a 6.73 score on MT-Bench, compared to Vicuna{'}s 6.57 and LLaVA{'}s 5.99. This enhancement in textual instruction-following capability correlates with boosted visual instruction performance (+4.9{\%} on MM-Vet, +6{\%} on LLaVA-Bench), with minimal alignment tax on visual knowledge benchmarks compared to the previous RLHF approach. In conclusion, we propose a distillation-based multi-modal alignment model with fine-grained annotations on a small dataset that restores and boosts MLLM{'}s language capability after visual instruction tuning.",
 }
 ```
 [[Arxiv paper](https://arxiv.org/abs/2402.10884)]
