@@ -25,7 +25,7 @@ This repo contains the code and the data for the following paper:
 [[Model](https://huggingface.co/alexshengzhili/llava-v1.5-13b-dpo/edit/main/README.md)]
 [[Data](https://huggingface.co/datasets/alexshengzhili/mllm-dpo)]
 [[Youtube](https://youtu.be/uv_ZtwA8pkY)]
-
+[![Youtube](https://img.youtube.com/vi/uv_ZtwA8pkY/0.jpg)](https://www.youtube.com/watch?v=uv_ZtwA8pkY) 
 Developers: Shengzhi Li (TIFIN.AI), Rongyu Lin (KAUST), Shichao Pei (University of Massachusetts Boston)
 Affiliations: TIFIN, KAUST, University of Massachusetts Boston
 Contact Information: alex.li@tifin.com, rongyu.lin@kaust.edu.sa, shichao.pei@umb.edu
