@@ -34,7 +34,7 @@ Contact Information: alex.li@tifin.com, rongyu.lin@kaust.edu.sa, shichao.pei@umb
 
 
 ## Contents
-[![Poster](ACL_poster.jpg)]
+![Poster](ACL_poster.jpg)
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
